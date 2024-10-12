@@ -1,0 +1,62 @@
+.footer-dark {
+    background-color: #000; /* Fondo negro */
+    padding: 40px 0; /* Espaciado en la parte superior e inferior */
+    color: #ffffff; /* Texto en blanco */
+    
+    ion-grid {
+      max-width: 1200px; /* Limitar el ancho máximo del grid */
+      margin: 0 auto; /* Centrar el grid */
+    }
+  
+    ion-col {
+      ion-list {
+        ion-item {
+          background: black !important; /* Elimina cualquier fondo */
+          color: white!important; /* Texto en blanco */
+          font-size: 14px;
+          padding-left: 0;
+          padding-right: 0;
+          --ion-item-background: transparent; /* Elimina el fondo del ítem */
+        }
+        
+        ion-item:hover {
+          text-decoration: underline; /* Subrayado al pasar el ratón */
+        }
+      }
+    }
+  
+    ion-button {
+      --background: transparent; /* Fondo transparente */
+      --border-color: black; /* Borde blanco */
+      --color: #fff; /* Texto en blanco */
+      border-radius: 5px;
+  
+      &:hover {
+        --background: #fff; /* Fondo blanco al pasar el ratón */
+        --color: #ffffff; /* Texto negro al pasar el ratón */
+      }
+  
+      ion-icon {
+        color: #fff; /* Icono en blanco */
+      }
+    }
+  
+    .language-button {
+      display: flex;
+      justify-content: flex-end; /* Mueve el botón hacia la derecha */
+    }
+  
+    p {
+      color: #bbb; /* Color gris claro para el texto */
+      font-size: 12px; /* Tamaño pequeño del texto */
+    }
+  
+    .ion-text-right {
+      text-align: right;
+    }
+  
+    .ion-justify-content-end {
+      justify-content: flex-end;
+    }
+  }
+  

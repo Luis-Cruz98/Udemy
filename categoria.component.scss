@@ -1,0 +1,28 @@
+ion-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  ion-card-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  ion-card {
+    margin: 10px 0;
+  }
+  ion-item {
+      --inner-padding-end: 0;
+    }
+    
+    ion-label h4 {
+      font-size: 18px;
+      color: #4a00e0; /* Color del texto del enlace */
+    }
+    
+    ion-label p {
+      font-size: 14px;
+      color: #666;
+    }

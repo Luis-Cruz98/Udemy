@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .logo-container {
+    grid-column: 1;
+  }
+  
+  .titulo {
+    grid-column: 2;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .searchbar {
+    grid-column: 3;
+  }
+  
+  .business-links {
+    grid-column: 4;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+  
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  
+      &:hover {
+        color: #666;
+      }
+    }
+  }
+  
+  .end-buttons {
+    grid-column: 5;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .boton-iniciar, .boton-registrar {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .boton-registrar {
+    background-color: #000;
+    color: #fff;
+  }
